@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <cs50.h>
+#include <string.h>
+
+int main (void)
+
+{
+    printf ("Please enter eight character string you would like decrypted:\n");
+        string s = GetString();
+        if (strlen(s) != 8) // String length is exactly eight characters
+        {
+     printf("I'm sorry but your string is not eight characters\n");
+   
+        }
+        
+        else // If eight characters are entered
+        {
+            printf ("\n %c", s[0] - 8);
+            printf ("%c", s[1] - 2);
+            printf ("%c", s[2] - 6);
+            printf ("%c", s[3] - 1);
+            printf ("%c", s[4] - 0);
+            printf ("%c", s[5] - 4);
+            printf ("%c", s[6] - 5);
+            printf ("%c \n", s[7] - 3);
+            
+        }
+}
