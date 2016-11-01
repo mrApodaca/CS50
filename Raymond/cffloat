@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <cs50.h>
+
+int main(void)
+{
+    printf ("\nenter dagrees celsious to convert to ferenheiet:\n");
+    int c = get_float();
+    
+    float f = 9.0/5*c+32;
+      printf ("\nyou degrees converted is exactly: \n%f", f);
+}
