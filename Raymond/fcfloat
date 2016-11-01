@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <cs50.h>
+
+int main(void)
+{
+    printf ("\nenter dagrees ferenhiet to convert to celcious:\n");
+    float f = get_float();
+    
+    float c = 5.0/9.0*(f-32);
+      printf ("\n you degrees converted is exactly: \n %f",f,c);
+}
