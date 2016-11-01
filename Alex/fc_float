@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <cs50.h>
+
+int main(void)
+
+{
+    printf("Please enter the degrees farenheit that you wish to convert to celcius:\n");
+    float f = get_float();
+    
+    
+    float c = 5.0 / 9 * (f - 32);
+    
+    printf("%f degrees farenheit is exactly %f degrees celcius!\n", f, c);
+}
